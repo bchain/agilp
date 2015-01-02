@@ -1,0 +1,7 @@
+Data_base_id	Raw Array ID	Ensembl_ID	Grid_ID	Investigator 	Experiment	Date of scan (dd-mm-yyyy)*	Cell type/tissue	Other variable 1	Other variable 2	Other variable 3	Stimulus	Time	User reference	"Sample (R,G, B)"	No of channels used	Notes
+1	gRaw_arrays_scanner_file1.txt	gRaw_US45102835_251485021361_S01_GE2-v5_95_Feb07_1_1_EnsemblID.txt	014850_4x44K_human	Doris	2	12/02/2007	Stratagen Std Ref						A	G	2	
+2	gRaw_arrays_scanner_file2.txt	rRaw_US45102835_251485021361_S01_GE2-v5_95_Feb07_1_1_EnsemblID.txt	014850_4x44K_human	Doris	2	12/02/2007	DC	Bal					A	R	2	
+3	rRaw_arrays_scanner_file1.txt	gRaw_US45102835_251485021361_S01_GE2-v5_95_Feb07_1_2_EnsemblID.txt	014850_4x44K_human	Doris	2	12/02/2007	Stratagen Std Ref						A	G	2	
+4	rRaw_arrays_scanner_file2.txt	rRaw_US45102835_251485021361_S01_GE2-v5_95_Feb07_1_2_EnsemblID.txt	014850_4x44K_human	Doris	2	12/02/2007	DC				LPS	3 hours	A	R	2	
+5	gRaw_US45102835_251485021361_S01_GE2-v5_95_Feb07_1_3.txt	gRaw_US45102835_251485021361_S01_GE2-v5_95_Feb07_1_3_EnsemblID.txt	014850_4x44K_human	Doris	2	12/02/2007	Stratagen Std Ref						A	G	2	
+6	rRaw_US45102835_251485021361_S01_GE2-v5_95_Feb07_1_3.txt	rRaw_US45102835_251485021361_S01_GE2-v5_95_Feb07_1_3_EnsemblID.txt	014850_4x44K_human	Doris	2	12/02/2007	DC						A	R	2	
