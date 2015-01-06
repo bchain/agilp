@@ -45,8 +45,8 @@ A typical workflow for using the package is described below. The examples are de
 Examples. This example extracts expression data from two sample array scanner files which are found in the folder "scanner" within the agilp package extdata folder and places them in the folder output within the agilp package folder.
 <<>>=
 library(agilp)
-inputdir<-file.path(system.file(package="agilp"),"extdata","scanner\\","", fsep = .Platform$file.sep)
-outputdir<-file.path(system.file(package="agilp"),"output\\", "", fsep = .Platform$file.sep)
+inputdir<-file.path(system.file(package="agilp"),"extdata","scanner/","", fsep = .Platform$file.sep)
+outputdir<-file.path(system.file(package="agilp"),"output/", "", fsep = .Platform$file.sep)
 AAProcess(input = inputdir, output = outputdir, s = 9)
 @
 
@@ -64,8 +64,8 @@ AAProcess(input = inputdir, output = outputdir, s = 10)
 Examples.This example makes a list of the names of all the files in the folder agilp/extdata/raw and saves it in a file called names.txt (tab delimited) in the folder agilp/output.
 <<>>=
 library(agilp) 
-inputdir<-file.path(system.file(package="agilp"),"extdata","raw//","", fsep = .Platform$file.sep)
-outputdir<-file.path(system.file(package="agilp"),"output//", "", fsep = .Platform$file.sep)
+inputdir<-file.path(system.file(package="agilp"),"extdata","raw/","", fsep = .Platform$file.sep)
+outputdir<-file.path(system.file(package="agilp"),"output/", "", fsep = .Platform$file.sep)
 filenamex(input=inputdir,output=outputdir)
 @
 To remove these files again and empty the output directory use :\newline
@@ -78,7 +78,7 @@ fsep = .Platform$file.sep), recursive=FALSE)
 Examples. Takes all the files of unprocessed data in folder agilp/extdata/raw) , calculates the mean expression value for each probe, and saves as agilp/output/testbase.txt.
 <<>>=
 library(agilp)
-inputdir<-file.path(system.file(package="agilp"),"extdata","raw//","", fsep = .Platform$file.sep)
+inputdir<-file.path(system.file(package="agilp"),"extdata","raw/","", fsep = .Platform$file.sep)
 outputbase<-file.path(system.file(package="agilp"),"output", "testbase.txt", fsep = .Platform$file.sep)
 template<-file.path(system.file(package="agilp"),"extdata","sample_template.txt", fsep = .Platform$file.sep)
 Baseline(NORM="LOG",allfiles="TRUE",r=2,A=2,B=3,input=inputdir, baseout=outputbase, t = template)
@@ -98,8 +98,8 @@ fsep = .Platform$file.sep), recursive=FALSE)
 
 Examples. This will copy the files with names given in column 2 , rows 2:3 of the sample template file from the input folder to output folder. 
 <<>>=
-inputdir<-file.path(system.file(package="agilp"),"extdata","raw\\","", fsep = .Platform$file.sep)
-outputdir<-file.path(system.file(package="agilp"),"output\\", "", fsep = .Platform$file.sep)
+inputdir<-file.path(system.file(package="agilp"),"extdata","raw/","", fsep = .Platform$file.sep)
+outputdir<-file.path(system.file(package="agilp"),"output/", "", fsep = .Platform$file.sep)
 template<-file.path(system.file(package="agilp"),"extdata","sample_template.txt",
 fsep = .Platform$file.sep)
 
